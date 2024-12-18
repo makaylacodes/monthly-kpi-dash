@@ -1,20 +1,19 @@
-
-import { Card } from './Original';
-import { Logos } from './Original';
-import { Subtitle } from './Original';
-import './App.css';
-
+import { useState } from "react"
+import IconNav from "./Components/IconNav";
 
 function App() {
   
   return (
-    <>
-      <Logos />
-      <h1>Quarterly KPI Dashboard</h1>
-      < Card />
-      <Subtitle />
-    </>
+    <div className="app">
+      <IconNav />
+      {/* 
+      <MainContent /> */}
+
+    </div>
+   
+    
+     
   )
 }
 
-export default App
+export default App;
