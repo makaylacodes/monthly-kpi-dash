@@ -1,17 +1,15 @@
-import React from 'react';
-import './IconNav.css';
+import React from "react";
+import "../Styles/IconNav.css";
 
 const IconNav = () => {
   return (
     <nav className="icon-nav">
-      <div className="icon">
-        <p>Icon 1</p></div>
-      <div className="icon"><p>Icon 2</p></div>
-      <div className="icon"><p>Icon 3</p></div>
-      <div className="icon"><p>Icon 4</p></div>
-      <div className="icon"><p>Icon 5</p></div>
-      <div className="icon"><p>Icon 6</p></div>
-    
+      <div className="icon-item">🏠</div>
+      <div className="icon-item">🔔</div>
+      <div className="icon-item">⏲</div>
+      <div className="icon-item">📅</div>
+      <div className="icon-item">🏆</div>
+      <div className="icon-item">⚙️</div>
     </nav>
   );
 };

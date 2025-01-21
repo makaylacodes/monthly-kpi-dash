@@ -1,0 +1,63 @@
+/* Header.css */
+.header {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    background-color: #2a2a2a;
+    color: #f0f0f0;
+    border-bottom: 2px solid #444;
+  }
+  
+  .header-top {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo {
+    background-color: #444;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+  }
+  
+  .header-bottom {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .search-dropdown {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .dropdown-label {
+    font-size: 1rem;
+  }
+  
+  .dropdown-select {
+    padding: 5px 10px;
+    font-size: 1rem;
+    border: 1px solid #3a3a3a;
+    border-radius: 5px;
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+  }
+  
+  .search-icon {
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  

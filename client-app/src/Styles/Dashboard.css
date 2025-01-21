@@ -1,0 +1,62 @@
+/* Dashboard.css */
+.dashboard {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: repeat(3, 1fr); /* Distribute rows evenly */
+    gap: 20px;
+    padding: 20px;
+    color: #2a2a2a;
+    overflow: hidden;
+    height: 100%;
+  }
+
+  .first-column{
+    height: 85vh; /*Helps me keep the three rows full of the space to end of page*/
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .second-column .balance-sheet {
+    background-color: #2a2a2a;
+    border: 1px solid #3a3a3a;
+    color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    height: 81vh; /*Helps me keep the the second col the same length (heightwise) to end of page/3rows*/
+  }
+  
+  .balance-sheet ul {
+    list-style: none;
+    padding: 0%;
+  }
+  
+  .balance-sheet li {
+    margin: 55px 0;
+  }
+  
+  .row {
+    display: flex;
+    flex:1;
+    /* This is currently light color so I can see the outline of the row plus individual elements
+       When final is deployed, this will be changed to the same color as card so no visible outline shows
+       but helps while coding */
+    background-color: #cdc8c8;
+    gap: 20px; /* Space between cards */
+    justify-content: space-between; /* Even spacing between cards */
+    /*       top    right    bottom left*/
+    padding: 10px 10px 10px 10px;
+  }
+  
+  .card {
+    flex: 1; /* Make cards evenly sized */
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    padding: 20px;
+    color: #f0f0f0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
